@@ -1,0 +1,13 @@
+src/**
+.vscode/**
+node_modules/**
+*.map
+*.log
+tsconfig.json
+package-lock.json
+.cph/**
+*.cpp
+*.c
+*.py
+*.js
+!out/**

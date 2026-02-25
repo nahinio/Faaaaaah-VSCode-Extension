@@ -1,0 +1,63 @@
+{
+  "name": "faaaaaah",
+  "displayName": "Faaaaaah!",
+  "description": "Competitive programming judge for VS Code. Hear Faaaaaah! when you fail.",
+  "version": "1.0.0",
+  "publisher": "nahinio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nahinio/faaaaaah"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "icon": "media/icon.png",
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "faaaaaah-container",
+          "title": "Faaaaaah!",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "faaaaaah-container": [
+        {
+          "type": "webview",
+          "id": "faaaaaah.judgeView",
+          "name": "Faaaaaah!"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "faaaaaah.openPanel",
+        "title": "Faaaaaah!: Open Panel"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "faaaaaah.openPanel",
+        "key": "ctrl+alt+j",
+        "mac": "cmd+alt+j"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.3.0"
+  }
+}
