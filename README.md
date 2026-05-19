@@ -2,11 +2,12 @@
   <img src="media/icon.png" alt="Faaaaaah! Logo" width="128" height="128">
 </p>
 
-# Faaaaaah!
+# Faaaaaah! - VSCode-Extension
 
-[![Marketplace](https://img.shields.io/visual-studio-marketplace/v/nahinio.faaaaaah?style=flat-square&color=007acc)](https://marketplace.visualstudio.com/items?itemName=nahinio.faaaaaah)
+[![Install Now](https://img.shields.io/badge/Install%20Now-green?style=flat-square&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=nahinio.faaaaaah)
+[![Marketplace](https://vsmarketplacebadges.dev/version/nahinio.faaaaaah.svg?style=flat-square&color=007acc)](https://marketplace.visualstudio.com/items?itemName=nahinio.faaaaaah)
 [![License](https://img.shields.io/badge/License-MIT-gray.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/nahinio.faaaaaah?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=nahinio.faaaaaah)
+[![Installs](https://vsmarketplacebadges.dev/installs-short/nahinio.faaaaaah.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=nahinio.faaaaaah)
 [![Repo](https://img.shields.io/badge/GitHub-Repository-black?style=flat-square&logo=github)](https://github.com/nahinio/faaaaaah)
 
 Faaaaaah! is a lightweight local judge for competitive programming in VS Code. It streamlines the testing process by allowing you to run code against multiple test cases directly from the editor.
